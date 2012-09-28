@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.authors  = {'John Grant' => 'johnkgrant@gmail.com' }
   s.source   = { :git => 'https://github.com/grantjk/JGALoadingView.git', :commit => '7b674296b508c4ea55b8ccb286f7a343271bc5ee' }
   s.source_files = 'JGALoadingView'
+  s.resource     = 'JGALoadingView/img/*.png'
   s.platform     = :ios
   s.requires_arc = true
 end
