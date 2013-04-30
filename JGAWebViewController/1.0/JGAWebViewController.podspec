@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Drop in web view controller.'
   s.homepage = 'https://github.com/grantjk/JGAWebViewController'
   s.authors  = {'John Grant' => 'johnkgrant@gmail.com' }
-  s.source   = { :git => 'https://github.com/grantjk/JGAWebViewController.git', :commit => '1b0f0751317d0c8762ee260dc597c97b92bc876d' }
+  s.source   = { :git => 'https://github.com/grantjk/JGAWebViewController.git', tag: s.version }
   s.source_files = '*.h', '*.m'
   s.resource     = '*.png', '*.xib'
   s.platform     = :ios, '5.0'
